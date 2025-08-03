@@ -1,3 +1,8 @@
+
+livekit-agents>=1.2.2
+asyncio
+typing-extensions
+
 livekit-agents
 livekit-plugins-groq
 livekit-plugins-silero   #used for voice activity detection
@@ -7,3 +12,4 @@ flask[async]
 flask
 flask-cors
 uvicorn
+
