@@ -1,0 +1,3 @@
+livekit-agents>=1.2.2
+asyncio
+typing-extensions

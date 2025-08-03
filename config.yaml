@@ -1,0 +1,15 @@
+# LiveKit Agent Configuration
+agent:
+  name: "assistant"
+  version: "1.0.0"
+  
+# LiveKit server configuration
+livekit:
+  url: "wss://voiceproject-kmhb5g2r.livekit.cloud"
+  api_key: "${LIVEKIT_API_KEY}"
+  api_secret: "${LIVEKIT_API_SECRET}"
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
